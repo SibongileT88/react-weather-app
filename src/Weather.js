@@ -56,15 +56,29 @@ export default function Weather() {
             <img src={weather.icon} alt={weather.description} />
           </li>
         </ul>
+        <footer>
+          <p>
+            This project was coded by Sibongile Tsopo. The code is hosted on{" "}
+            <a
+              href="https://github.com/SibongileT88/react-weather-app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github
+            </a>
+            . The website is hosted on{" "}
+            <a
+              href="https://fluffy-naiad-b0f8af.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Netlify
+            </a>
+          </p>
+        </footer>
+        ;
       </div>
     );
-
-    <footer>
-      <p>
-        This project was coded by Sibongile Tsopo. The code is hosted on{" "}
-        <a href="">Github</a>. The website is hosted on <a href="">Netlify</a>
-      </p>
-    </footer>;
   } else {
     return form;
   }
